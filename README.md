@@ -59,7 +59,7 @@ The screenshot above shows DBx in action:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/dbx.git
+git clone https://github.com/codexcherry/dbx.git
 cd dbx
 
 # Install dependencies

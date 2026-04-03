@@ -66,6 +66,7 @@ export interface QueryResult {
   fields: string[];
   rowCount: number;
   executionTime: number;
+  affectedRows?: number;
 }
 
 export interface DatabaseConnection {

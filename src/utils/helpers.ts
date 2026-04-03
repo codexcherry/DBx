@@ -117,7 +117,7 @@ export function extractTableNames(sql: string): string[] {
     tables.push(match[1]);
   }
   
-  return [...new Set(tables)];
+  return Array.from(new Set(tables));
 }
 
 export function sleep(ms: number): Promise<void> {

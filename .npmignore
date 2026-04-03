@@ -1,0 +1,33 @@
+# Source files
+src/
+tests/
+examples/
+
+# Config files
+tsconfig.json
+.env
+.env.example
+
+# Documentation
+*.md
+!README.md
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files
+*.test.ts
+*.spec.ts
+
+# Build artifacts
+*.tsbuildinfo
+
+# Databases
+*.db
+*.sqlite
+
+# Logs
+*.log
